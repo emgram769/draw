@@ -6,6 +6,7 @@ Host the draw.html file and the draw.jpg files separately.  Note line 17 has nod
 
 ## Example
 Change line 17 in draw-server.js to `var binary_file = ./draw.jpg`.
+
     cd draw/
     python -m SimpleHTTPServer &
     node draw-server.js
